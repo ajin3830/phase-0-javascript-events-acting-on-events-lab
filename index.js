@@ -1,6 +1,10 @@
 // Your code here
 const dodger = document.getElementById("dodger");
 
+//  A radix parameter specifies the number system to use: 
+// 2 = binary, 8 = octal, 10 = decimal, 16 = hexadecimal. 
+// If radix is omitted, JavaScript assumes radix 10.
+
 function moveDodgerLeft() {
     const leftNumbers = dodger.style.left.replace("px", "");
     const left = parseInt(leftNumbers, 10);
